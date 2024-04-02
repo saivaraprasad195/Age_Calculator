@@ -9,16 +9,21 @@
 <body>
     <div id="main">
         <p>Please Enter Date of Birth</p>
+        <div id="dateInput">
         <label for="date"></label>
-        <input type="number" name="date" id="date" value="DD">
+        <input type="number" name="date" id="date" placeholder="DD">
+        <span>/</span>
         <label for="month"></label>
-        <input type="number" name="month" id="month" value="MM">
+        <input type="number" name="month" id="month" placeholder="MM">
+        <span>/</span>
         <label for="year"></label>
-        <input type="number" name="year" id="year" value="YYYY">
+        <input type="number" name="year" id="year" placeholder="YYYY">
+        </div>
+        <button id="calculateAge">Calculate</button>
     </div>
-    <div id="age">
+    <div id="ageContainer">
         <p>Please enter Date of Birth to know your Age</p>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
